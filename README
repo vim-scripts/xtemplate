@@ -1,0 +1,24 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2263
+
+USAGE:                                                                         
+  1) vim test.js                                                               
+  2) type:                                                                     
+    for<C-S-j> or <M-space> or <M-S-j>                                                                 
+    to generate a for-loop template. then type and use TAB to navigate through 
+    template                 
+  
+How to DEFINE TEMPLATEs 
+    edit ftplugin/*/*.template.vim                                                  
+
+FEATUREs:
+  *-> automatically replace all item with the same name
+  *-> user-defined template variable or function can be automatically inserted
+  *-> stop position(marked by 'cursor') can be defined to indicate where the cursor stands after template rendering
+  *-> completion popup menu hint (NEW!!)
+
+SCREEN-SHOTs:
+http://sites.google.com/site/xptemplate/Home/screen-shoot
+
+FEATURE request / BUG report : 
+    I will be so gald to know that this script helps. You can help me to improve.
+    drdr.xp@gmail.com
